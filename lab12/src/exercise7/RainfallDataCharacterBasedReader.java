@@ -40,7 +40,10 @@ public class RainfallDataCharacterBasedReader {
 				//Total the data per iteration
 				total += data;
 			}
-
+			
+			//Close the stream
+			reader.close();
+			
 			// Calculate the average for 6 days
 			average = total / noOfData;
 
