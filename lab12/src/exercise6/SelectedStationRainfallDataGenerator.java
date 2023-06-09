@@ -17,7 +17,7 @@ public class SelectedStationRainfallDataGenerator {
 		// Declaring the station attributes
 		String id[] = {"2421003", "2324033"};
 		String station[] = {"Simpang Ampat", "Hospital Jasin"};
-		String district[] = {"Alor Gajah", "Alor Gajah"};
+		String district[] = {"Alor Gajah", "Jasin"};
 		int readingData[][] = {{0, 4, 1, 0, 6, 19},
 				{0, 0, 14, 0, 11, 15 }};
 
