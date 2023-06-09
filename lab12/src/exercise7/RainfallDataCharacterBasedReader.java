@@ -14,7 +14,8 @@ public class RainfallDataCharacterBasedReader {
 
 		//Declare target file
 		String fileName = "rainfallDataCharacterBased.txt";
-
+		System.out.println("Reading data from "+fileName);
+		
 		//Variables declaration
 		int data;
 		int total = 0;
